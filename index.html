@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whatsapp web Clone</title>
+  <script src="https://kit.fontawesome.com/3cfe403982.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="side-bar">
+      <div class="toolbar-container">
+        <img class="user-photo" src="./img/avatar1.png" >
+        <div class="auxicons-toolbar-contaner">
+          <i class="fas fa-spinner"></i>
+          <i class="fas fa-comment-alt"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <div class="notification-container">
+        <i class="fas fa-bell-slash"></i>
+        <p class="receive-notification"> Reecba notificações de novas mensagens</p>
+        <p class="active-notification"> 
+          Ativar notificações na área de trabalho  
+          <i class="fas fa-angle-right"></i>
+        </p>
+      </div>
+      <div class="search-container">
+        <i  id="contact-search" class="fas fa-search"></i>
+        <input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+      </div>
+      <div class="contacts-container">
+
+        <div class="contact-box active-chat">
+          <img class="user-photo" src="./img/avatar2.png">
+          <div class="User-info">
+            <p class="user-name">Julia</p>
+            <p class="user-messagepreview">
+                <i class="fas fa-check-double"></i> 
+                Oi, tudo bem?
+            </p>
+          </div>
+          <div class="message-info">
+            <p class="message-time">18:40</p>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <img class="user-photo" src="./img/avatar3.png">
+          <div class="User-info">
+            <p class="user-name">Ricardo Almeida</p>
+            <p class="user-messagepreview">Está disponivel para fazer um freela?</p>
+          </div>
+          <div class="message-info">
+            <p class="message-time">15:36</p>
+            <p class="message-pending">3</p>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <img class="user-photo" src="./img/avatar4.png">
+          <div class="User-info">
+            <p class="user-name">Rafaela Ribeiro</p>
+            <p class="user-messagepreview">Qual é a sua chave pix?</p>
+          </div>
+          <div class="message-info">
+            <p class="message-time">19:50</p>
+            <p class="message-pending">6</p>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+    <main class="chat-container">
+      <nav  class="chat-navbar">
+        <div class="contactinfo-container">
+        <img class="user-photo" src="./img/avatar1.png">
+        <p class="user-name">Julia</p>
+        </div>
+        <ul class="chattools-container">
+          <li><i class="fas fa-search"></i></li>
+          <li><i class="fas fa-paperclip"></i></li>
+          <li><i class="fas fa-ellipsis-v"></i></li>
+        </ul>
+      </nav>
+      <div class="message-container">
+        <div class="bg-image"> </div>
+        <div class="chat-messages">
+          <p class="guest-message">
+            Olá, bom dia!
+          </p>
+          <p class="user-message">
+            Olá bom dia, tudo bem?
+          </p>
+        </div>
+        <div class="sendmessage-container">
+          <i class="fas fa-grin"></i>
+          <input type="text" name="message" class="userinput" placeholder="Digite uma mensagem">
+          <i class="fas fa-microfone"></i>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
